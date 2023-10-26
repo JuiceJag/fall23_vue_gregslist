@@ -9,7 +9,7 @@
             <div v-for="house in houses" :key="house.id" class="col-6 mb-5">
                 <div class="row justify-content-center">
                     <div class="col-4 bg-secondary">
-                        <img class="img-fluid" :src="house.imgUrl" alt="">
+                        <img class="img-fluid p-5" :src="house.imgUrl" alt="">
                     </div>
                     <div class="col-7 bg-secondary">
                         <div>
